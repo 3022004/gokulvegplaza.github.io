@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Gokul Veg Plazza
+    </title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px; 
+        }
+
+		.left img {
+            width: 150px;
+        }
+
+        .mid {
+            border: 2px solid green;
+            background: black;
+            display: block;
+            width: 43%;
+            margin: 10px auto;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            border: 2px solid pink;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: red;
+            text-decoration: underline;
+
+        }
+
+        .btn {
+            margin: 0px 9px;
+            color: black;
+            background-color: yellow;
+            padding: 4px 16px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: red;
+        }
+
+        .container {
+            color: Red;
+            text-align: center;
+            margin-top: 70px;
+        }
+
+        .below {
+            display: inline-block;
+            right: 0px;
+            position: absolute;
+            margin-right: 34px; 
+        }
+
+        .header {
+             background-color: pink; 
+        }
+
+        .above {
+            display: inline-block;
+            left: 34px;
+            position: absolute;
+
+        }
+
+        .thought {
+            color: brown;
+        }
+
+        .read {
+            border: 2px solid red;
+            cursor: pointer;
+            background-color: yellow;
+        }
+
+        .read:hover {
+            background-color: blue;
+        }
+
+        .side {
+            display: inline-block;
+            left: 34px;
+            position: absolute;
+            top: 550px;
+        }
+
+        .edit {
+            display: inline-block;
+            right: 34px;
+            position: absolute;
+            top: 550px;
+            border: 2px solid white;
+            width: 650px;
+        }
+
+        .top {
+            margin-top: 800px;
+            left: 34px;
+            right: 34px;
+            display: inline-block;
+            position: absolute;
+            color: white;
+            background: purple;
+            text-align: center;
+            border: 2px solid green;
+        }
+
+        .header {
+            background: pink;
+        }
+
+        .footer {
+            margin-top: 2000px;
+        }
+
+        .inner-footer{
+			margin: 0;
+			padding: 0;
+			background-color: grey;
+		}
+		
+		.social-links{
+			display: flex;
+		}
+		
+		.social-links ul{
+			padding: 10px;
+			display: flex;
+			width: 300px;
+			height: 30px;
+			margin: auto;
+		}
+		
+		.social-items{
+			list-style: none;
+		}
+		
+		.social-items a{
+			padding: 10px 20px;
+			font-size: 30px;
+			color: cyan;
+		}
+		
+		.social-items a:hover{
+			color:red;
+		}
+		
+		.quick-links{
+			display: flex;
+			width: 560px;
+			height:70px;
+			margin: auto;
+		}
+		
+		.quick-links ul{
+			display:flex;
+		}
+		
+		.quick-items{
+			list-style: none;
+		}
+		
+		.quick-items a{
+			text-decoration: none;
+			padding: 0px 15px;
+			font-size: 22px;
+			color: white;
+		}
+		
+		.quick-items a:hover{
+			color: yellow;
+		}
+		
+		.outer-footer{
+			padding:15px;
+			text-align: center;
+			color:white;
+			font-size:18px;
+			background-color: maroon;
+		}
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="logo1.png" alt="GokulVegPlzza">
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call us Now
+            </button>
+            <button class="btn">Email us
+            </button>
+        </div>
+
+        <div class="container">
+            <h1>Welcome to Gokul Veg Plaza </h1>
+        </div>
+    </header>
+	<div class="below">
+        <img src="decilious.jpg" alt="Loading" width=700 height=300 style="border:2px solid">
+    </div>
+    <div class="above">
+        <span class="thought">
+            <h2>Good food choices are good investments.</h2>
+        </span>
+        <p><strong>You will face many defeats in life, but never let yourself be defeated.<br>
+                The greatest glory in living lies not in never falling, but in rising every time we fall.<br>
+                In the end, it's not the years in your life that count.<br>
+                Never let the fear of striking out keep you from playing the game.</strong><br>
+        </p>
+        <button class="read">Read more..</button>
+    </div>
+
+    <div class="side">
+        <img src="front view.jpg" alt="loading" height=400 width=600 style="border:2px solid">
+    </div>
+    <div class="edit">
+        <p><strong>"Although a great restaurant experience must include great food, a bad restaurant experience can be
+                achieved through bad service alone. Ideally, service is invisible. You notice it only when something
+                goes wrong."
+                "I am working harder than ever now, and I am putting on my pants the same as I always have. I just get up
+                every day and try to do a little better than the day before, and that is to run a great restaurant with
+                great food, great wine, and great service. That is my philosophy."
+                "Although the skills aren't hard to learn, finding the happiness and finding the satisfaction and
+                finding fulfillment in continuously serving somebody else something good to eat, is what makes a really
+                good restaurant."
+                "Profit is not the legitimate purpose of business. The legitimate purpose of business is to provide a
+                product or service that people need and do it so well that it profitable."
+                "Then you are able to shift your inner awareness to how you can serve others, and when you make this
+                the central focus of your life, you will then be in a position to know true miracles in your progress
+                toward prosperity."
+                "The best way to find yourself is to lose yourself in the service of other."
+                "To give real service you must add something which cannot be bought or measured with money, and that is
+                sincerity and integrity."
+                "The sole purpose of business is service. The sole purpose of advertising is explaining the service
+                which business renders."
+            </strong>
+        </p>
+    </div>
+	<div class="top">
+        <h2>Excellent hygiene environment and Tasty Food!</h2>
+        <p>Writing a restaurant review is a great way to share your excitement about a favorite restaurant warn
+            potential diners about a particularly disappointing experience. While some people write for fun, others are
+            professionals who are paid to produce reviews.
+            When people are looking for a restaurant to try, online reviews are often an important deciding factor. The
+            better the reviews, the higher the chance they will book a seat in that restaurant.Not all reviews are
+            created equal, however. People are smart and can easily distinguish between a genuine review with real
+            information and a brief missive written by someone who may not have actually visited the establishment in
+            question.
+            You can fool people by dashing off a few generic words of praise (e.g., Loved it!, will definitely go
+            again!, or west night ever!). People don't put any stock in these types of reviews because they feel
+            bland and untrustworthy. Details and specifics are what readers find helpful.
+        </p>
+        
+			<img src="white chair.jpg" alt="Loading" height="300" width="500" style="border:2px solid">
+			<img src="innerview.jpg" alt="Loading" height="300" width="500" style="border:2px solid">
+			<img src="counter.jpg" alt="Loading" height="300" width="500" style="border:2px solid">
+			<img src="rack.jpg" alt="Loading" height="300" width="500" style="border:2px solid">
+			<img src="red chair.jpg" alt="loading"  height="300" width="500" style="border:2px solid">
+    </div>
+
+    <footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                    <li class="social-items"><a href="http://instagram.com/gokul_veg_plaza?igshid=YmMyMTA2M2Y=" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                    <li class="social-items"><a href="https://www.facebook.com/gokulvegplaza" target="_blank"><i class="bi bi-facebook" ></i></a></li>
+                    <li class="social-items"><a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                    <li class="social-items"><a href="https://Linkedin.com" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                </ul>
+            </div>
+			
+			<div class="quick-links">
+				<ul>
+					<li class="quick-items"><a href="#">Home</a></li>
+					<li class="quick-items"><a href="#">Services</a></li>
+					<li class="quick-items"><a href="#">About us</a></li>
+					<li class="quick-items"><a href="#">Contact us</a></li>
+					
+				<ul>
+			</div>
+        </div>
+		
+		<div class="outer-footer">
+			Address: Gokul Veg Plaza, Dasara Nagar, Mahatma Jyotiba Phule Nagar, Shegoan, Maharashtra
+		</div>
+    </footer>
+</body>
+</html>
