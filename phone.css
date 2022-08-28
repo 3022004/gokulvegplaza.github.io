@@ -1,0 +1,11 @@
+#services{
+	flex-direction: column;
+}
+
+#clients{
+	overflow: hidden;	
+}
+
+#clients-items{
+	width: 100px;
+}
